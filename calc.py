@@ -8,7 +8,7 @@ import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
-def get_constants()
+def get_constants():
     constants = pd.read_csv('/Users/dsung/majors/espn_constants.csv')
     url = constants.iloc[0].value
     folder = constants.iloc[1].value
